@@ -1,6 +1,9 @@
 # GraphQL-Client-Exploration
 
 ## Clients Explored
+* Lokka
+* Apollo Fetch
+* FetchQL
 * GraphQL Request
 * Micro GraphQL React
 * URQL
@@ -8,13 +11,15 @@
 * Relay Modern
 
 
-Starting the server
+## Getting Started
+
+### Starting the server
 
 `cd packages/server`
 `yarn start`
 
 
-Starting the client
+### Starting the client
 
 `cd packages/client`
 
