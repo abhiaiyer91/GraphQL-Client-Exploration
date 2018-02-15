@@ -14,7 +14,7 @@ class MicroGraphQL extends React.Component {
       return <p> Loading your MicroGraphQL data...</p>;
     }
 
-    return <div>{data && data.helloWorld} from Micro GraphQL React</div>;
+    return <p>{data && data.helloWorld} from Micro GraphQL React</p>;
   }
 }
 

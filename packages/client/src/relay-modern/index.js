@@ -15,11 +15,11 @@ export default function Root() {
       query={query}
       render={({ error, props }) => {
         if (error) {
-          return <div>{error.message}</div>;
+          return <p>{error.message}</p>;
         } else if (props) {
           return <p>{props.helloWorld} from Relay Modern</p>;
         }
-        return <div>Loading your Relay Modern data...</div>;
+        return <p>Loading your Relay Modern data...</p>;
       }}
     />
   );

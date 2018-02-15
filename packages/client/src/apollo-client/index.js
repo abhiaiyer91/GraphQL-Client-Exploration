@@ -8,7 +8,7 @@ const query = gql(helloWorldQuery);
 const App = () => (
   <Query query={query}>
     {({ loading, error, data }) => {
-      if (loading) return <div>Loading data from Apollo Client...</div>;
+      if (loading) return <p>Loading data from Apollo Client...</p>;
 
       return <p>{data && data.helloWorld} from Apollo Client</p>;
     }}

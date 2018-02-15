@@ -19,6 +19,6 @@ export default class GraphQLRequest extends React.Component {
 
   render() {
     const { helloWorld } = this.state;
-    return <div>{helloWorld} from GraphQL Request</div>;
+    return <p>{helloWorld} from GraphQL Request</p>;
   }
 }
