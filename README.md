@@ -130,7 +130,7 @@ fetcher({ query: helloWorldQuery }).then(result => {
 I'm starting to see a trend between all these fetch clients. Most of them use the `fetch` api and operate the same way. I'm starting to wonder why they exist?
 
 ## Micro GraphQL React
-Micro GraphQL is created by Adam Rackis with the aim to have a simple client to connect React components to a GraphQL Server. It uses `graphql-request` under the hood as it's fetch client and has a built in cache stored at the component level.
+Micro GraphQL is created by Adam Rackis with the aim to have a simple client to connect React components to a GraphQL Server. It uses `fetch` with `HTTP Get` for queries and uses `graphql-request` to handle mutations. It has a built in cache stored at the component level.
 
 Let's show an example:
 
