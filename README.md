@@ -1,5 +1,7 @@
 # GraphQL Client Exploration
 
+Checkout this in detail on https://medium.com/open-graphql/exploring-different-graphql-clients-d1bc69de305f
+
 ## Getting Started
 
 ### Starting the server
